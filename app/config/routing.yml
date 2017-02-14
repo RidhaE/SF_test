@@ -1,0 +1,8 @@
+autobiz_connect:
+    resource: "@AutobizConnectBundle/Resources/config/routing.yml"
+    prefix:   /
+
+app:
+    resource: "@AppBundle/Controller/"
+    type:     annotation
+
